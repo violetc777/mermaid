@@ -1,37 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mermaid</title>
-    <link rel="stylesheet" type="text\css" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mood.tail">Mood Tails</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mystery.tail">Mystery Tails</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="power.tail">Power Tails</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="review.tail">Reviews</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mystery Tail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mystery Tail</h1>
+  </header>
+
+  <main>
+    <div class="tail-section">
+      <img src="mystery-tail.png" alt="Mystery Tail" class="tail-image"/>
+      <button class="buy-button">Buy Now</button>
+    </div>
+
+    <p class="description">
+      Make a splash with the Mystery Mermaid Tail Package — a surprise bundle where you never know what magical color or power you’ll get!
+      Each tail is a unique treasure, shimmering in a random shade from ocean blues to sunset pinks, and infused with a special ability like
+      super speed, wave control, or underwater camouflage. Whether you're collecting them all or diving into the mermaid life for the first
+      time, this mystery tail adds excitement and magic to every swim. Which one will you unwrap? There’s only one way to find out!
+    </p>
+
+    <nav class="nav-buttons">
+      <button>home</button>
+      <button>Mood</button>
+      <button>Reviews</button>
+      <button>Powers</button>
     </nav>
-  </body>
+  </main>
+</body>
+</html>
