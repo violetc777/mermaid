@@ -42,10 +42,10 @@
   </div>
 
   <nav>
-    <a href="#">home</a>
-    <a href="#">Mystery</a>
-    <a href="#">Mood</a>
-    <a href="#">powers</a>
+    <a href="index.html">home</a>
+    <a href="mystery.tail">Mystery</a>
+    <a href="mood.tail">Mood</a>
+    <a href="power.tail">powers</a>
   </nav>
 
 </body>
