@@ -1,37 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mermaid</title>
-    <link rel="stylesheet" type="text\css" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mood.tail">Mood Tails</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mystery.tail">Mystery Tails</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="power.tail">Power Tails</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="review.tail">Reviews</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Mermaid Tail Reviews</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+  <h1>Reviews</h1>
+
+  <div class="review">
+    <img src="https://example.com/mermaid1.jpg" alt="Mermaid Tail 1">
+    <div class="review-text">
+      <span class="username">user12345</span><span class="stars">★★★★★</span>
+      <p>I got the mystery tail. I took a risk and it was very rewarding and worth it.</p>
+    </div>
+  </div>
+
+  <div class="review">
+    <img src="https://example.com/mermaid2.jpg" alt="Mermaid Tail 2">
+    <div class="review-text">
+      <span class="username">ladyqueen23</span><span class="stars">★★★★★</span>
+      <p>Me and my friends got matching mood tails, and all of our tails show we are happy! They are our favorite.</p>
+    </div>
+  </div>
+
+  <div class="review">
+    <img src="https://example.com/mermaid3.jpg" alt="Mermaid Tail 3">
+    <div class="review-text">
+      <span class="username">Mermaidb0ss</span><span class="stars">★★★★★</span>
+      <p>I love my new tail. I got a mood tail and it does a great job at expressing and changing to my mood at all times.</p>
+    </div>
+  </div>
+
+  <div class="review">
+    <img src="https://example.com/mermaid4.jpg" alt="Mermaid Tail 4">
+    <div class="review-text">
+      <span class="username">H2o2238</span><span class="stars">★★★★★</span>
+      <p>Me and my friends absolutely love our power tails! They work great and allow us to have fun in the ocean to our full ability.</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#">home</a>
+    <a href="#">Mystery</a>
+    <a href="#">Mood</a>
+    <a href="#">powers</a>
+  </nav>
+
+</body>
+</html>
