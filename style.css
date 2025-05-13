@@ -9,9 +9,12 @@
 body {
     background-color:rgb(252, 221, 245)
 }
-h3 {
+h2 {
     background-color: rgb(172, 99, 240);
     color:rgb(250, 250, 250);
     font-family: georgia;
     text-align: center;
+    max-width: 600px;
+    margin-left: 33%;
+    line-height: 300%;
 }
