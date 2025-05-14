@@ -1,20 +1,92 @@
-.apple { 
-    text-align: center;
-    font-family:'Imperial Script';
-    color:#F200FF;
-    font-weight:400;
-    font-size:96px;
-    line-height:150%;
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f8d7ea;
+  color: #a100c5;
+  text-align: center;
+}
+
+.navbar {
+  background: url('https://www.transparenttextures.com/patterns/fish-scales.png'),
+              linear-gradient(to right, #fcd7ea, #d0e7ff);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 49px;
+  color: #ff00ff;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ff00ff;
+  font-style: italic;
+}
+
+.mermaid-icon {
+  font-size: 50px;
+  color: #ff00ff;
+}
+
+.headline {
+  font-size: 28px;
+  margin: center;
+  color: #d100d1;
+  margin-left:30%;
+}
+
+.content-box {
+  background-color: #d6b4f8;
+  margin: 0 auto;
+  width: 400%;
+  height:100px;
+  padding: 100px;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  font-size: 18px;
+   max-width: 800px;
+   line-height: 300%;
+   font-family: georgia; 
+}
+
+.shell-icon {
+  position: absolute;
+  left: -30px;
+  top: -20px;
+  width: 50px;
+}
+
+.button-group {
+  margin: center;
+  margin-left:650px;
+  margin-top:50px;
+}
+
+button {
+  background-color: #ff00ff;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
 }
 body {
-    background-color:rgb(252, 221, 245)
+  background-color: #fff1ff;
 }
+
+
 h2 {
-    background-color: rgb(172, 99, 240);
-    color:rgb(250, 250, 250);
     font-family: georgia;
     text-align: center;
     max-width: 600px;
-    margin-left: 33%;
-    line-height: 300%;
+    margin-left: 60%;
+    line-height: 600%;
 }
