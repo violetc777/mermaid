@@ -90,3 +90,282 @@ h2 {
     margin-left: 60%;
     line-height: 600%;
 }
+.title {
+  text-align: center;
+  font-size: 65px;
+   color: magenta; 
+   
+}
+.username { 
+
+  font-weight: bold; 
+
+  color: turquoise; 
+
+  font-size: 25px; 
+
+} 
+.review-text { 
+
+  background: #fff; 
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+  padding: 60px; 
+
+  border-radius: 15px; 
+
+  max-width: 70%; 
+
+} 
+.review { 
+
+  display: flex; 
+
+  margin-bottom: 30px; 
+
+  align-items: center; 
+
+  flex-wrap: wrap; 
+
+} 
+.review img { 
+
+  width: 30%; 
+
+  border-radius: 10px; 
+
+  margin-right: 20px; 
+
+  max-width: 100%; 
+
+} 
+.stars { 
+
+  color: magenta; 
+
+  font-size: 25px; 
+
+  margin-left: 5px; 
+
+} 
+.boss {
+  font-size: 22px;
+}
+.power { 
+
+  font-size: 36px; 
+
+  color: #ff00ff; 
+
+  margin: 20px 0;
+  
+  text-align: center;
+  
+  font-size:80px
+
+}
+ .tail-grid { 
+
+  display: grid; 
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+
+  gap: 30px; 
+
+  padding: 20px; 
+
+} 
+
+ 
+
+.tail-card { 
+
+  background-color: #e7feff; 
+
+  border-radius: 20px; 
+
+  padding: 15px; 
+
+  margin: 0 auto; 
+
+  max-width: 350px; 
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+
+} 
+.tail-card img { 
+
+  max-width: 100%; 
+
+  border-radius: 15px; 
+  
+  height:550px;
+
+} 
+
+ .girly { 
+
+  font-family: 'Georgia', serif; 
+
+  background-color: #fff1ff;
+
+  color: #e600e6; 
+
+  text-align: center; 
+
+  margin: 0; 
+
+  padding: 0; 
+
+} 
+
+.tail-card button { 
+
+  margin-top: 10px; 
+
+  background-color: #e7feff; 
+
+  color: black; 
+
+  border: none; 
+
+  font-size: 18px; 
+
+  cursor: pointer; 
+
+} 
+
+ 
+
+.tail-card p { 
+
+  font-size: 15px; 
+
+  color: #c218e1; 
+
+  text-align: left; 
+
+  margin-top: 10px; 
+
+} 
+.queen { 
+
+  font-size: 3rem; 
+
+  text-transform: uppercase; 
+
+  letter-spacing: 3px; 
+
+  margin-top: 20px; 
+
+} 
+
+ 
+
+.tail-section { 
+
+  background-color: #ffffff; 
+
+  margin: 1rem auto; 
+
+  padding: 1rem; 
+
+  border-radius: 1rem; 
+
+  max-width: 300px; 
+
+} 
+
+ 
+
+.tail-image { 
+
+  width: 250px; 
+
+  height: 260px;
+
+  margin-bottom: 10px; 
+
+} 
+
+ 
+
+.buy-button { 
+
+  background: none; 
+
+  border: none; 
+
+  font-family: 'Georgia', serif; 
+
+  font-size: 1.2rem; 
+
+  color: black; 
+
+  cursor: pointer; 
+
+} 
+
+ 
+
+.description { 
+
+  margin: 20px; 
+
+  font-size: 25px; 
+
+  line-height: 1.6; 
+
+  color: #e600e6; 
+
+  margin-left: 100px;
+  margin-right: 100px;
+
+} 
+.silly { 
+
+  font-family: 'Georgia', serif; 
+
+  background: white; 
+
+  color: #e600e6; 
+
+  margin: 0; 
+
+  padding: 0; 
+
+  text-align: center; 
+
+} 
+
+ 
+
+goofy{ 
+
+  font-size: 3rem; 
+
+  color: #e600e6; 
+
+  text-transform: uppercase; 
+
+  margin-top: 1rem; 
+
+} 
+
+ 
+
+.intro {
+
+  background: #ffe6ff; 
+
+  padding: 1.5rem; 
+
+  margin: 1rem auto; 
+
+  max-width: 700px; 
+
+  border-radius: 1rem; 
+
+  font-size: 1.1rem 
+}
