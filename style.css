@@ -177,7 +177,6 @@ h2 {
 
 } 
 
- 
 
 .tail-card { 
 
@@ -323,25 +322,8 @@ h2 {
   margin-right: 100px;
 
 } 
-.silly { 
 
-  font-family: 'Georgia', serif; 
-
-  background: white; 
-
-  color: #e600e6; 
-
-  margin: 0; 
-
-  padding: 0; 
-
-  text-align: center; 
-
-} 
-
- 
-
-goofy{ 
+ .goofy { 
 
   font-size: 3rem; 
 
@@ -352,8 +334,6 @@ goofy{
   margin-top: 1rem; 
 
 } 
-
- 
 
 .intro {
 
@@ -368,4 +348,26 @@ goofy{
   border-radius: 1rem; 
 
   font-size: 1.1rem 
+
+}
+.silly { 
+
+  font-family: 'Georgia', serif; 
+
+  background: white; 
+
+  color: #e600e6; 
+
+  margin: 0; 
+
+  padding: 0; 
+
+ text-align: center;
+
+} 
+.mood-item {
+  float:left
+}
+.mood-item2 {
+  float:right
 }
